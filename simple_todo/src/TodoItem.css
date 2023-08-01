@@ -1,0 +1,15 @@
+.TodoItem {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.TodoItem-p {
+  margin: 24px 0 24px 24px;
+  font-size: 24px;
+  line-height: 24px;
+}
+.TodoItem-p--complete {
+  text-decoration: line-through;
+}
